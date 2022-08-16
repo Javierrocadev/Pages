@@ -138,4 +138,38 @@ footer {
     border-bottom: transparent 3px solid;
     padding: 5px;
 }
-
+.opinion-section{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.opinion-title{
+    color:#fc036b;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.opinion{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.opinion-card{
+    background:#fc036b;
+    display:flex;
+    width: 90%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px;
+}
+.opinion-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
