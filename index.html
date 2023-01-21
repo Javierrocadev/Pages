@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Page</title>
+    <link rel="stylesheet" href="./style/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure.</h1>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="boton" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn")
+        const navlinks = document.querySelector(".nav-links")
+        menuBtn.addEventListener("click", () => {
+            navlinks.classList.toggle("mobile-menu")
+        })
+    </script>
+
+    <section>
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="everest">
+                <h4>Everest Camp Trek</h4>
+                <p>Disfruta de un agradable paseo por las montañas más famosas</p>
+                <a href="#" class="ctn">Ver más</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="everest">
+                <h4>Everest Camp Trek</h4>
+                <p>Disfruta de un agradable paseo por las montañas más famosas</p>
+                <a href="#" class="ctn">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deleniti nisi repellendus ad animi unde
+                quod exercitationem accusantium odio inventore!</p>
+            <a href="#" class="ctn">Ver más</a>
+            <div />
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, nam cumque perferendis vero modi
+                    assumenda porro molestiae aperiam explicabo deserunt quibusdam quia quae maiores recusandae iste.
+                    Minima odit maiores voluptatem? Blanditiis rerum corporis maxime, labore libero quo, vel placeat et
+                    alias a sint. Velit excepturi vel nesciunt corrupti tenetur incidunt!</p><br>
+                <a href="#" class="ctn">Ver más</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img3.png" alt="fotogaleria">
+                    <img src="./img/img4.png" alt="fotogaleria">
+                    <img src="./img/img5.png" alt="fotogaleria">
+                    <img src="./img/img6.png" alt="fotogaleria">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Todos los derechos reservados.</p>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
